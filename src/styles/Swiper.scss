@@ -1,0 +1,21 @@
+.swiper{
+    display: flex;
+    justify-items: end;
+    max-width: 400px;
+    margin-top: 170px;
+}
+.swiper-slide img{
+    height: 160px;
+    width: 150px;
+}
+.stand {
+    height:50px;
+    width: 100%;
+}
+
+@media only screen and (min-width:200px) and (max-width:480px)
+{
+    .stand{
+        width:80%;
+    }
+}
